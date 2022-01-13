@@ -1,10 +1,11 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
-# (e) @Muhammed_RK, @Mo_Tech_YT , @Mo_Tech_Group, @MT_Botz
+# (c) @MrMaDYt
+# (e) @HAZARD_77, @MrMaDYt , @@bot_support_group_2022,
+
 # Copyright permission under MIT License
 # All rights reserved by PR0FESS0R-99
-# License -> https://github.com/PR0FESS0R-99/DonLee_Robot/blob/main/LICENSE
+# License -> https://github.com/MR-MAD-YT/DonLee-Robot-V1
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
@@ -40,7 +41,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/mo_tech_YT"
+                                    'Developers', url="https://t.me/HAZARD_77"
                                 )
                         ]
                     ]
@@ -52,14 +53,14 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('My Dev 🧒', url='https://t.me/mrk_yt'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PR0FESS0R-99/DonLee-Robot-V1')
+        InlineKeyboardButton('My Dev 🧒', url='https://t.me/new_all_movies_club'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/MR-MAD-YT/DonLee-Robot-V1')
     ],[
-        InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/mo_tech_yt')
+        InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/bot_support_group_2022')
     ],[
         InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
     ],[
-        InlineKeyboardButton('💫 Deploy Video 💫', url='https://youtu.be/uAHl5jvnrhk')
+        InlineKeyboardButton('💫 Deploy Video 💫', url='https://youtube.com/channel/UCEK86p-F18gR-zd9LwLH4Gw')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
